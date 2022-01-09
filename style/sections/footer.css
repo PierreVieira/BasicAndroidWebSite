@@ -1,0 +1,21 @@
+@import "../utils/values/colors.css";
+
+footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green-500);
+}
+
+footer > p > a {
+    color: white;
+    font-weight: bold;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s;
+}

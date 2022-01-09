@@ -1,0 +1,20 @@
+@import "../utils/values/colors.css";
+@import "../utils/values/fonts.css";
+header {
+    margin: auto;
+    background-image: linear-gradient(var(--green-300), var(--green-500));
+    text-align: center;
+    color: white;
+    height: 200px;
+    display: flex;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.466);
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+header > h1 {
+    font-family: var(--bebas-font);
+    font-size: 2.5em;
+    letter-spacing: 0.05em;
+}

@@ -1,0 +1,10 @@
+main {
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+main > p {
+    line-height: 1.5em;
+}

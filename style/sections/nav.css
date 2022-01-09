@@ -1,0 +1,15 @@
+@import "../utils/values/colors.css";
+@import "../utils/values/fonts.css";
+
+nav {
+    background-color: var(--green-500);
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    color: white;
+    font-weight: bold;
+}

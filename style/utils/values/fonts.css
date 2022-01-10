@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@font-face {
+    font-family: 'Android';
+    src: url("../../../assets/fonts/idroid.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --arial-font: Arial, Halvetica, sans-serif;
     --bebas-font: 'Bebas Neue', cursive;

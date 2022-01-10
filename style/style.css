@@ -1,6 +1,6 @@
+@import "utils/reset.css";
 @import "utils/values/colors.css";
 @import "utils/values/fonts.css";
-@import "utils/reset.css";
 @import "sections/header.css";
 @import "sections/nav.css";
 @import "sections/main.css";
@@ -10,4 +10,8 @@ body {
     font-family: var(--arial-font);
     color: var(--green-100);
     background-color: var(--green-200);
+}
+
+article > p, aside > p {
+    text-indent: 20px;
 }
